@@ -4,10 +4,8 @@ Sincere credits : This component is built by referncing Mitesh code here https:/
 
 ### Some Screenshots
 
-![Image](https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_1.png)
-![Image](https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_2.png)
-![Image](images/custom_drawer.png)
-![Image](best_flutter_ui_templates/assets/design_course/design_course.png)
+<img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_1.png" height="300em">
+<img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_2.png" height="300em">
 
 ### Glimpse of component animation
 
