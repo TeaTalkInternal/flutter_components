@@ -4,8 +4,17 @@ Sincere credits : This component is built by referncing Mitesh code here https:/
 
 ### Some Screenshots
 
-<img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_1.png" height="500em">
-<img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_2.png" height="500em">
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_1.png" height="500em">
+  </div>
+  <div class="column">
+   <img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_2.png" height="500em">
+  </div>
+  <div class="column">
+<img src="https://github.com/TeaTalkInternal/github_assets/blob/master/images/grocery_image_3.png" height="500em">
+  </div>
+</div>
 
 ### Glimpse of component animation
 
