@@ -1,5 +1,5 @@
-import 'package:grocery_ui_template/quick_item_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:grocery_ui_template/dashboard/widgets/quick_item_widget.dart';
 
 class QuickItemsListWidget extends StatefulWidget {
   @override

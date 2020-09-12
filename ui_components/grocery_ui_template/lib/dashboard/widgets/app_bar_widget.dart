@@ -1,5 +1,5 @@
-import 'package:grocery_ui_template/app_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:grocery_ui_template/app_theme.dart';
 
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({Key key}) : super(key: key);

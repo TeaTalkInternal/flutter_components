@@ -1,5 +1,5 @@
-import 'package:grocery_ui_template/popular_item_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:grocery_ui_template/dashboard/widgets/popular_item_widget.dart';
 
 class PopularItemsListWidget extends StatefulWidget {
   @override

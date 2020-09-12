@@ -1,11 +1,11 @@
-import 'package:grocery_ui_template/app_bar_widget.dart';
 import 'package:grocery_ui_template/app_theme.dart';
-import 'package:grocery_ui_template/category_widget.dart';
-import 'package:grocery_ui_template/popular_items_list_widget.dart';
-import 'package:grocery_ui_template/popular_section_header_widget.dart';
-import 'package:grocery_ui_template/quick_items_list_widget.dart';
-import 'package:grocery_ui_template/search_bar_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:grocery_ui_template/dashboard/widgets/app_bar_widget.dart';
+import 'package:grocery_ui_template/dashboard/widgets/category_widget.dart';
+import 'package:grocery_ui_template/dashboard/widgets/popular_items_list_widget.dart';
+import 'package:grocery_ui_template/dashboard/widgets/popular_section_header_widget.dart';
+import 'package:grocery_ui_template/dashboard/widgets/quick_items_list_widget.dart';
+import 'package:grocery_ui_template/dashboard/widgets/search_bar_widget.dart';
 
 class CompositionalDashboardPage extends StatefulWidget {
   CompositionalDashboardPage({Key key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_ui_template/app_theme.dart';
-import 'package:grocery_ui_template/compostional_dashboard_page.dart';
+import 'package:grocery_ui_template/dashboard/screens/compostional_dashboard_page.dart';
 
 void main() {
   runApp(MyApp());
