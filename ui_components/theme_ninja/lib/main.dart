@@ -20,11 +20,10 @@ Future<void> main() async {
 class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final _appThemeState = ref.watch(appThemeStateProvider.notifier);
+    final _appThemeState = ref.watch(appThemeStateProvider);
     return MaterialApp(
-      theme: ref
-          .watch(appThemeProvider)
-          .getAppThemedata(context, _appThemeState.state),
+      theme:
+          ref.watch(appThemeProvider).getAppThemedata(context, _appThemeState),
       home: HomePage(),
     );
   }
