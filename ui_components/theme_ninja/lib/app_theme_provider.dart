@@ -45,7 +45,8 @@ class AppTheme {
 
 /* AppTheme Notifier */
 
-final appThemeStateProvider = StateNotifierProvider<AppThemeNotifier>((ref) {
+final appThemeStateProvider =
+    StateNotifierProvider<AppThemeNotifier, bool>((ref) {
   final _isDarkModeEnabled =
       ref.read(sharedUtilityProvider).isDarkModeEnabled();
   return AppThemeNotifier(_isDarkModeEnabled);
@@ -56,13 +57,13 @@ class AppThemeNotifier extends StateNotifier<bool> {
 
   final bool defaultDarkModeValue;
 
-  toggleAppTheme(BuildContext context) {
+  toggleAppTheme(BuildContext context, WidgetRef ref) {
     final _isDarkModeEnabled =
-        context.read(sharedUtilityProvider).isDarkModeEnabled();
+        ref.watch(sharedUtilityProvider).isDarkModeEnabled();
     final _toggleValue = !_isDarkModeEnabled;
 
-    context
-        .read(
+    ref
+        .watch(
           sharedUtilityProvider,
         )
         .setDarkModeEnabled(_toggleValue)
